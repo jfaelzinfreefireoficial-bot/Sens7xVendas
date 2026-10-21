@@ -1,17 +1,16 @@
 {
-  "name": "sens7x-vendas-discord",
+  "name": "gssvirtual-pagamentos",
   "version": "1.0.0",
-  "description": "Bot de vendas SENS7X — Discord",
-  "main": "bot.js",
+  "description": "Sistema de pagamento real via Mercado Pago com Pix e Webhook",
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.16.0",
-    "express": "^4.21.0",
-    "mercadopago": "^2.0.15"
+    "express": "^4.19.2",
+    "mercadopago": "^2.0.10"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=18.x"
   }
 }
